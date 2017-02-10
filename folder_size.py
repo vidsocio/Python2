@@ -31,3 +31,5 @@ if dir_size == 0: print ("File Empty") # Sanity check to eliminate corner-case o
 else:
   for units in sorted(fsizeList)[::-1]: # Reverse sort list of units so smallest magnitude units print first.
       print ("Folder Size: " + units)
+      a = 5
+
